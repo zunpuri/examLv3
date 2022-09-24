@@ -1,0 +1,81 @@
+/* ******************** */
+/* lg: 1024px <= width */
+/* ******************** */
+@media screen and (min-width: 1024px) {
+	body{
+		font-size: 16px;
+	}
+
+	.lg_flex{
+		display: flex;
+	}
+
+	.lg_grid{
+		display: grid;
+	}
+
+	.lg_justify-center{
+		justify-content: center;
+	}
+	.lg_rerative{
+		position: relative;
+	}
+	.lg_w-150{
+		width: 150px;
+	}
+
+	.lg-w-90p{
+		width: 90%;
+	}
+
+	.lg_gap-x-50{
+		gap:0 50px;
+	}
+
+	.lg_grid-row-50p{
+		grid-row: 1/2;
+	}
+
+	.lg_ml-0{
+		margin-left: 0px;
+	}
+	.lg_mx-100{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	.lg_px-20{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.lg_px-30{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.lg_px-40{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.lg_pl-100{
+		padding-left: 100px;
+	}
+
+	.lg_py-30{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.lg_pd-50{
+		padding-bottom: 50px;
+	}
+
+	.lg_text-12{
+		font-size: 12px;
+	}
+
+	.lg_top-50{
+		top:50px;
+	}
+
+}

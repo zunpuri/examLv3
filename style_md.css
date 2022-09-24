@@ -1,0 +1,55 @@
+/* ******************** */
+/* md: 768px <= width */
+/* ******************** */
+@media screen and (min-width: 768px) {
+	.md_hidden{
+		display: none;
+	}
+
+	.md_grid{
+		display: grid;
+	}
+	.md_py-20{
+		padding: 20px 0px;
+	}
+
+	.md_w-120{
+		width: 120px;
+	}
+
+	.md_w-300{
+		width: 300px;
+	}
+
+	.md_w-600{
+		width: 600px;
+	}
+
+	.w-full{
+		width: 100%;
+	}
+
+	.md_text-14{
+		font-size: 16px;
+	}
+
+	.md_text-18{
+		font-size: 18px;
+	}
+
+	.md_text-20{
+		font-size: 20px;
+	}
+
+	.md_grid_gap-y-20{
+		grid-gap: 20px;
+	}
+
+	.md_h-400{
+		height: 400px;
+	}
+
+	.md_bg-hero{
+		background-image: url("./img/hero01_bg01.png");
+	}
+}	
