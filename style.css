@@ -8,7 +8,7 @@ body{
 	font-family: 'Noto Sans JP';
 	font-size: 12px;
 	color: #384359;
-	line-height: 1.2;
+	line-height: 1.5;
 }	
 /* Layout */
 .hidden{
@@ -86,6 +86,14 @@ body{
 	top: 150px;
 }
 
+.top-170{
+	top: 170px;
+}
+
+.top-200{
+	top: 200px;
+}
+
 .top-250{
 	top: 250px;
 }
@@ -94,6 +102,9 @@ body{
 	top: 270px;
 }
 
+.top-300{
+	top: 300px;
+}
 .left-20{
 	left: 20px;
 }
@@ -104,6 +115,10 @@ body{
 
 .left-80{
 	left: 80px;
+}
+
+.left-230{
+	left: 230px;
 }
 
 .left-250{
@@ -258,6 +273,14 @@ body{
 	border-bottom:solid;
 	border-color: #F2C94C;
 }
+
+.boder-square-yellow{
+	border-bottom:solid 3px #F2C94C;
+	border-top: solid 3px #F2C94C;
+	border-left: solid 3px #F2C94C;
+	border-right: solid 3px #F2C94C;
+}
+
 .boder-yellow{
 	background: linear-gradient(transparent 60%, #F2C94C 30%);
 }
