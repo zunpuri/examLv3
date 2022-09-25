@@ -289,6 +289,13 @@ body{
 	border-right: solid 3px #F2C94C;
 }
 
+.boder-square-gray{
+	border-bottom:solid 3px #DBDBDB;
+	border-top: solid 3px #DBDBDB;
+	border-left: solid 3px #DBDBDB;
+	border-right: solid 3px #DBDBDB;
+}
+
 .boder-yellow{
 	background: linear-gradient(transparent 60%, #F2C94C 30%);
 }
