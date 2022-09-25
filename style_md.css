@@ -6,9 +6,21 @@
 		display: none;
 	}
 
+	.md_block{
+		display: block;
+	}
 	.md_grid{
 		display: grid;
 	}
+
+	.md_justify-center{
+		justify-content: center;
+	}
+
+	.md_py-10{
+		padding: 10px 0px;
+	}
+
 	.md_py-20{
 		padding: 20px 0px;
 	}
@@ -21,12 +33,40 @@
 		width: 300px;
 	}
 
+	.md_w-350{
+		width: 350px;
+	}
+
+	.md_w-400{
+		width: 400px;
+	}
+
+	.md_w-500{
+		width: 500px;
+	}
+
 	.md_w-600{
 		width: 600px;
 	}
 
-	.w-full{
+	.md_w-700{
+		width: 700px;
+	}
+
+	.md_left-120{
+		left: 120px;
+	}
+
+	.md_w-full{
 		width: 100%;
+	}
+
+	.md_h-800{
+		height: 800px;
+	}
+
+	.md_h-full{
+		height: 100%;
 	}
 
 	.md_text-14{
@@ -51,5 +91,19 @@
 
 	.md_bg-hero{
 		background-image: url("./img/hero01_bg01.png");
+		background-repeat:no-repeat; 
+		background-size: 100%;
 	}
+
+	.md_bg-user{
+		background-image: url("./img/frame.png");
+		background-repeat:no-repeat; 
+		background-size: 400px 100%;
+	}
+
+	.md_bg-uservoice{
+		background-image: url("./img/uservoice_bg.png");
+		background-size: cover;
+	}
+
 }	

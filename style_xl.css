@@ -3,10 +3,32 @@
 /* xl:  1280px <= width */
 /* ******************** */
 @media screen and (min-width: 1279px) {
+	.xl_flex{
+		display: flex;
+	}
+
+	.xl_aline-end{
+		align-items: flex-end;
+	}
+	.xl_justify-start{
+		justify-content: start;
+	}
+
+	.xl_justify-center{
+		justify-content: center;
+	}
+
+	.xl_align-center{
+		align-items: center;
+	}
+
 	.xl_max-w-1280{
 		max-width: 1280px;
 	}
 
+	.xl_max-w-1400{
+		max-width: 1400px;
+	}
 	.xl_max-w-1920{
 		max-width: 1920px;
 	}
@@ -15,10 +37,21 @@
 		margin: 0px auto !important;
 	}
 
+	.lx_pl-0{
+		padding-left: 0px;
+	}
+
+	.lx_pl-100{
+		padding-left: 100px;
+	}
+
 	.xl_block{
 		display: block;
 	}
 
+	.xl_hidden{
+		display: none;
+	}
 	.xl_hero-bg{
 		display: grid;
 		grid-template-columns: 1.2fr 1fr;
@@ -28,10 +61,15 @@
 
 	.xl_bg-hero-2{
 		background-image: url("./img/hero01_bg02.jpg");
+		background-size: cover;
 	}
 	
 	.xl_max-w-1000{
 		max-width: 1000px;
+	}
+
+	.xl_gap-x-150{
+		gap: 0px 150px;
 	}
 
 }
