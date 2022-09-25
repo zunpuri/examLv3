@@ -4,6 +4,18 @@
 /* ============= */
 
 /*Fundamental*/
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans+JP:wght@100;300;400;500;700;900 & display=swap');
+*{
+	font-family: 'Noto Sans JP',
+	"游ゴシック体",
+	"YuGothic",
+	"游ゴシック", 
+	"Yu Gothic",
+	"ヒラギノ角ゴ Pro W3",
+	"Hiragino Kaku Gothic Pro",
+	"Meiryo",
+	sans-serif;
+}
 body{
 	font-family: 'Noto Sans JP';
 	font-size: 12px;
